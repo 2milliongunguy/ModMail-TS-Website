@@ -180,7 +180,7 @@ export default function Home() {
                 Ready to improve your<br />community's support?
               </h2>
               <p className="text-white/40 text-[0.95rem] mb-8 font-normal">
-                Join 12,000+ servers already using ModMail. Free, always.
+                Join the other servers which already using ModMail. Free, always.
               </p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <a
