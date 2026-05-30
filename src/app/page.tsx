@@ -78,7 +78,7 @@ export default function Home() {
                 Add to Discord
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/2milliongunguy/Modmail-TS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono-jb h-11.5 px-5 rounded-[9px] border border-white/12 text-white/60 text-sm font-medium inline-flex items-center gap-2 tracking-wide hover:border-white/30 hover:text-white transition-all bg-white/5 backdrop-blur-xl hover:bg-white/10 duration-150"
