@@ -190,7 +190,7 @@ export default function Home() {
                   Add to Discord →
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/2milliongunguy/Modmail-TS"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-mono-jb h-11.5 px-5 rounded-[9px] border border-white/12 text-white/60 text-sm font-medium inline-flex items-center gap-2 tracking-wide hover:border-white/30 hover:text-white transition-all duration-150"
@@ -208,9 +208,9 @@ export default function Home() {
               <span className="font-mono-jb font-semibold text-[0.82rem] text-white/70">ModmailTS</span>
             </div>
             <div className="flex gap-6">
-              {["Docs", "GitHub", "Support Server", "Privacy"].map((l) => (
-                <a key={l} href="#" className="text-[0.78rem] text-white/25 hover:text-white/50 transition-colors duration-150 font-normal">
-                  {l}
+              {[{ name: "Docs", href: "#" }, { name: "GitHub", href: "https://github.com/2milliongunguy/Modmail-TS" }, { name: "Support Server", href: "https://discord.gg/D7EWNn6AJJ" }, { name: "Privacy", href: "#" }].map((l) => (
+                <a key={l.name} href={l.href} className="text-[0.78rem] text-white/25 hover:text-white/50 transition-colors duration-150 font-normal">
+                  {l.name}
                 </a>
               ))}
             </div>
